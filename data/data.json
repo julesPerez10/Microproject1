@@ -1,0 +1,8 @@
+[
+    { "id": 1, "title": "Web Development Bootcamp", "instructor": "John Doe", "price": 99.99 },
+    { "id": 2, "title": "Python for Beginners", "instructor": "Jane Smith", "price": 49.99 },
+    { "id": 3, "title": "Machine Learning Mastery", "instructor": "Andrew Ng", "price": 199.99 },
+    { "id": 4, "title": "JavaScript from Zero to Hero", "instructor": "Chris Evans", "price": 79.99 },
+    { "id": 5, "title": "UI/UX Design Fundamentals", "instructor": "Emily Brown", "price": 59.99 },
+    { "id": 6, "title": "Cybersecurity Essentials", "instructor": "Alex Johnson", "price": 129.99 }
+]

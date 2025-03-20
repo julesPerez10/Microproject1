@@ -1,0 +1,245 @@
+/* ================= BARRA DE NAVEGACIÓN ================= */
+nav {
+    background: #007bff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #007bff;
+}
+
+/* Ajustar el contenido para que no quede cubierto por la barra */
+body {
+    padding-top: 70px;
+    background: #f4f4f4;
+}
+
+/* ================= CONTACT PAGE ================= */
+.contact-header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #0056b3;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* ================= API PAGE ================= */
+.api-header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.api-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#dataContainer {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ================= SECCIÓN ABOUT US ================= */
+.about-header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+}
+
+/* Contenedor principal */
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.about-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-box h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* SECCIÓN "WHY CHOOSE US?" */
+.about-extra {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-extra h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.about-extra ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-extra ul li {
+    font-size: 1.1rem;
+    color: #444;
+    padding: 5px 0;
+}
+
+/* SECCIÓN "CONTACT & SOCIAL MEDIA" */
+.about-footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.about-footer h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
