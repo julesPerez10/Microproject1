@@ -1,4 +1,4 @@
-/* ================= BARRA DE NAVEGACIÓN ================= */
+/* ================= Nav Var ================= */
 nav {
     background: #007bff;
     padding: 10px 0;
@@ -49,7 +49,7 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-/* Ajustar el contenido para que no quede cubierto por la barra */
+
 body {
     padding-top: 70px;
     background: #f4f4f4;
@@ -134,7 +134,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
 }
-/* ================= SECCIÓN ABOUT US ================= */
+/* =================  ABOUT US SECTION================= */
 .about-header {
     text-align: center;
     padding: 60px 20px;
@@ -150,7 +150,7 @@ button:hover {
     font-size: 1.2rem;
 }
 
-/* Contenedor principal */
+/* Main Container */
 .about-container {
     display: flex;
     justify-content: center;
@@ -186,7 +186,7 @@ button:hover {
     line-height: 1.6;
 }
 
-/* SECCIÓN "WHY CHOOSE US?" */
+/*  "WHY CHOOSE US?" SECTION*/
 .about-extra {
     max-width: 800px;
     margin: 40px auto;
@@ -213,7 +213,7 @@ button:hover {
     padding: 5px 0;
 }
 
-/* SECCIÓN "CONTACT & SOCIAL MEDIA" */
+/*  "CONTACT & SOCIAL MEDIA" SECTION */
 .about-footer {
     text-align: center;
     background: #f4f4f4;
